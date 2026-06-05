@@ -11,6 +11,7 @@ int main() {
     const int casasBispo = 5;
     const int casasTorre = 5;
     const int casasRainha = 8;
+    int movimentocompleto = 1; //Movimento do cavalo
 
     int i;
 
@@ -48,6 +49,18 @@ int main() {
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
+
+    printf("\nMovimento do Cavalo:\n");
+
+
+    while (movimentocompleto == 1) {
+        for (int j = 0; j < 2; j++) {
+            printf("Cima\n"); //Imprime cima duas vezes
+        }
+        printf("Direita\n"); //Imprime Direita uma vez
+        movimentocompleto = 0;
+    }
+
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
